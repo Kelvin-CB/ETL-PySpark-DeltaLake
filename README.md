@@ -20,12 +20,12 @@
 Dentro deste repositório adicionei os notebooks de ETL e Consumo de Dados, para execução dos mesmos é recomendada a utilização da imagem Docker disposta aqui.  
 Como inseri na Imagem Docker também as camadas de dados já processados, caso queira executar o projeto do zero, atente-se a primeira célula no notebook "ETL Finalizada" que excluirá os dados prévios para que a execução seja sucedida. (Pode ocorrer lentidão na etapa de consumo da API devido ao tempo de request e iteração) 
 
-## Imagem Docker: 
+## Imagem Docker: https://hub.docker.com/r/kelvincb/pyspark_deltalake
 Para fins de maior compatibilidade entre ambientes, criei uma imagem docker contendo tanto o ambiente utilizado durante o desenvolvimento quanto o projeto em si.  
 Para instalar basta executar o Docker Pull Command:
 
 ```bash
-docker pull 
+docker pull kelvincb/pyspark_deltalake:v1
 ```
 
 
